@@ -1,0 +1,41 @@
+
+body{
+ font:Arial, Helvetica, sans-serif;
+ font-size:14px;
+}
+#dd_text{
+ width:60px;
+  height:15px;
+  border:0px none;
+}
+#dropdown{
+padding:1px;
+width:83px;
+height:18px;
+background:url(select_font.gif);
+}
+
+#dd_list{
+border:1px #CCCCCC solid;
+width:185px;
+height:80px;
+position:relative;
+padding-left:-12px;
+overflow:hidden;
+visibility:hidden;
+}
+#ul{
+ font:Verdana, Arial, Helvetica, sans-serif;
+ font-size:14px;
+ font-weight:bold;
+width:100%;
+
+}
+#li{
+	width:100%;
+	padding:2px;
+}
+#li a:hover{
+	color:#993300;
+
+}

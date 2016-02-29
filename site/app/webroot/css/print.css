@@ -1,0 +1,7 @@
+a,select,option,a:visited,a:active {outline: none;}
+body {background-color:#fff; font: .7em/1.2em Tahoma, Geneva, sans-serif; color:#000;width:900px;}
+table {width:850px;margin:0;}
+td {padding:15px;border:1px solid #000;}
+.vendor_title {color:#fff;background-color:#999;padding:5px;}
+.vendor_title .label {font-weight:bold;}
+.titles th{color:#fff;padding:5px;background-color:#000;}

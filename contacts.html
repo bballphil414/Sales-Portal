@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>CMI Portal</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="content">
+  <div id="top">
+    <img id="logo" src="img/cmi_logo_gr.png" />
+      <div id="topWelcome">
+      <h3>Welcome Membername</h3><br />
+      <a class="crumbs" href="member_dash.html" title="Home">Home</a> > <a class="crumbs" href="javascript:void();" title="Contacts">Contacts</a>
+      </div>
+      <div id="topDate">
+      11/1/10
+      </div>
+    <div class="clear"><!--IE--></div>
+  </div>
+ 
+ <!-- MAIN AREA START -->
+ 
+  <div id="main">
+  
+  <fieldset id="fs_contacts"><legend>Contacts</legend>
+  <table id="tb_contacts">
+  <tbody>
+  <tr>
+  	<th>name</th>
+    <th>company</th>
+    <th>tools</th>
+  </tr>
+  <tr>
+  	<td><h3>System Contact</h3>Owner<br /><a href="mailto:billy@doubletimemarketing.com">billy@doubletimemarketing.com</a><br />630-715-2486</td>
+  	<td>Doubletime Marketing<br />0S565 Branford Ln.<br />Geneva, IL 60134</td>
+  	<td class="tb_tools">
+        <ul>
+        <li><a href="javascript:void();" title="email"><img src="img/bt_email.png" /></a></li>
+        <li><a href="javascript:void();" class="button_smgr" title="edit"><span>edit</span></a></li>
+        </ul>
+	</td>
+  </tr>
+  <tr class="odd">
+  	<td><h3>Personal Contact</h3>Owner<br /><a href="mailto:billy@doubletimemarketing.com">billy@doubletimemarketing.com</a><br />630-715-2486</td>
+  	<td>Doubletime Marketing<br />0S565 Branford Ln.<br />Geneva, IL 60134</td>
+  	<td class="tb_tools">
+        <ul>
+        <li><a href="javascript:void();" title="email"><img src="img/bt_email.png" /></a></li>
+        <li><a href="javascript:void();" class="button_smgr" title="edit"><span>edit</span></a></li>
+        <li><a href="javascript:void();" title="email"><img src="img/bt_del.gif" /></a></li>
+        <li><a href="javascript:void();" class="button_smgr" title="notes"><span>see notes</span></a></li>
+        </ul>
+	</td>
+  </tr>
+  <tr>
+  	<td>
+<!-- NEW/EDIT CONTACT -->    
+    <form method="post" name="new_contact">
+    <label for="name">Name</label>
+    <input type="text" name="name" value="Billy Schuttler" /><br />
+    <label for="title">Title</label>
+    <input type="text" name="title" value="Owner" /><br />
+    <label for="email">Email</label>
+    <input type="text" name="email" value="billy@doubletimemarketing.com" /><br />
+    <label for="phone">Phone</label>
+    <input type="text" name="phone" value="630-715-2486" /><br />
+    <label for="website">Website</label>
+    <input type="text" name="website" value="www.doubletimemarketing.com" /><br />
+    <label for="company">Company</label>
+    <input type="text" name="company" value="Doubletime Marketing" /><br />
+    <label for="address">Address</label>
+    <textarea name="address" cols="25" rows="4">
+0S565 Branford Ln.
+Geneva, IL 60134
+</textarea><br />
+    <label for="notes">Notes</label>
+    <textarea name="notes" cols="25" rows="4"></textarea><br />
+   </form>
+<!-- //NEW/EDIT CONTACT -->
+
+	</td>
+  </tr>
+  </tbody>
+  </table>
+  
+  <div class="fs_buttons">
+  <a class="button_or" id="con_new" href="javascript:void();"><span>new contact</span></a><a class="button_gr" id="con_save" href="javascript:void();"><span>save contact</span></a>
+
+  </div>
+
+  
+  </fieldset>
+  
+  </div>
+  
+<!-- MAIN AREA END -->
+<!-- RIGHT COL START -->
+
+  <div id="rightCol">
+
+  <fieldset id="fs_file_library" class="rc_module">
+  <legend>File LiBraRy</legend>
+  <ul>
+  	<li><a href="javascript:void();" title="Filename">Filename</a></li>
+  	<li><a href="javascript:void();" title="Filename">Filename</a></li>
+  	<li><a href="javascript:void();" title="Filename">Filename</a></li>
+  	<li><a href="javascript:void();" title="Filename">Filename</a></li>
+  	<li><a href="javascript:void();" title="Filename">Filename</a></li>
+  	<li id="last"><a href="javascript:void();" title="Filename">Filename</a></li>
+  </ul>  
+    <a class="button_gr floatright" id="lib_all" href="files.html"><span>see all files</span></a>
+  </fieldset>
+  
+  </div>
+</div>
+</body>
+</html>

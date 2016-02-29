@@ -1,0 +1,2 @@
+RewriteEngine On
+RedirectMatch 301 ^/$ http://portal.comprehensive1.com/site/
